@@ -55,14 +55,35 @@ main {
   line-height: 48px;
 }
 
-.weather-app-deatils {
+.weather-app-details {
   font-size: 15px;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
 }
 
-.weather-app-deatils strong {
+.weather-app-details strong {
   color: #f65282;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-emoji {
+  font-size: 40px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
 
 footer {
